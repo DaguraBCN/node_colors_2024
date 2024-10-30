@@ -1,0 +1,30 @@
+{
+  "name": "node_proyecto1",
+  "version": "0.0.1",
+  "description": "Escribir texto en el terminal usando colores",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "ejecutar": "node --watch index.js",
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaguraBCN/node_colors_2024.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "colors"
+  ],
+  "author": "DaguraBCN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaguraBCN/node_colors_2024/issues"
+  },
+  "homepage": "https://github.com/DaguraBCN/node_colors_2024#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  }
+}
